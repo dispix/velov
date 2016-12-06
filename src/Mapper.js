@@ -14,7 +14,6 @@ class Mapper {
   }
 
   map (json) {
-    console.log('onNext called with argument: ', json)
     return {
       date: Date.now(),
       stands: json.values
